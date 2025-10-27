@@ -1,0 +1,148 @@
+# Node / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Next.js / build outputs
+.next/
+out/
+build/
+dist/
+
+# Environment files (keep secrets out of repo)
+.env
+.env.*
+!.env.example
+
+# Vercel / Netlify / hosts
+.vercel/
+.vercel_build_output/
+.netlify/
+.now/
+
+# Logs
+logs/
+*.log
+logs/**
+
+# Editor / IDE
+.vscode/
+.history/
+*.sublime-workspace
+*.sublime-project
+
+# JetBrains (IDEA, WebStorm, Android Studio)
+.idea/
+*.iml
+*.iws
+out/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Docker
+docker-compose.override.yml
+docker-compose.*.yml
+Dockerfile*
+.docker/
+
+# Build artefacts / temp
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Testing / coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Babel
+.cache/
+
+# IDE specific caches
+/.cache
+/.parcel-cache
+/.turbo
+
+# Android / Java / Kotlin
+.gradle/
+build/
+app/build/
+local.properties
+*.keystore
+*.jks
+captures/
+.externalNativeBuild/
+
+# Android Studio
+.idea/
+*.iml
+
+# Google / Firebase config (در صورت تمایل می‌توانید آن را از نسخه‌گذاری مستثنی کنید)
+google-services.json
+GoogleService-Info.plist
+
+# Python (در صورت نیاز)
+__pycache__/
+*.py[cod]
+venv/
+env/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Certificates, keys, secrets
+*.pem
+*.p12
+*.pfx
+secrets.json
+
+# Database / storage local files
+*.sqlite
+*.sqlite3
+dump.rdb
+
+# Cloud / storage temporary
+uploads/
+tmp_uploads/
+*.log
+*.cache
+
+# Misc
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Coverage and reports
+reports/
+coverage/
+
+# Lockfiles you may want to ignore for reproducibility (optional)
+# pnpm-lock.yaml
+# package-lock.json
